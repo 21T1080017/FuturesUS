@@ -1,0 +1,44 @@
+/*Body*/
+  * {
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    /* text-transform: capitalize; */
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    /* scroll-padding-top: 6.5rem; */
+  }
+  
+  body {
+    height: 1257.4vh;
+    background: linear-gradient(134.41deg, #03091df2 13.47%, #132059 56.64%, #03091D 90.93%);
+  }
+  
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+  /* 
+  ::-webkit-scrollbar-track{
+    background-color: var(--white1);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+  } */

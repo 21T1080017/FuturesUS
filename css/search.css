@@ -1,0 +1,47 @@
+.search{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.search-email{
+    align-items: center;
+    display: flex;
+}
+
+.btn-search{
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px 10px 10px 5px;
+    background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%);
+    border-radius: 500px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.form #FutureUs{
+    outline: none;
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.search-email .form{
+    background-color: #FFFFFF;
+    border-radius: 500px;
+    margin: 40px 0 40px auto ;
+}
+.search-email span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}

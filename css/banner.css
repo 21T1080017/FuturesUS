@@ -1,0 +1,55 @@
+.banner .container{
+    display: flex;
+    margin-top: 60px;
+}
+.banner-info{
+    align-items: center;
+    
+}
+.banner-heading span{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(40px*0.85375);
+}
+
+.banner-desc{
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(18px*0.85375);
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.banner-link{
+    margin-top: 30px;
+}
+
+.banner-link .link_btn .btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(16px*0.85375);
+    padding: 10px;
+}
+.banner-link .link_btn .btn-plan{
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.banner-link .link_btn .btn:focus{
+    border: 0;
+    background: linear-gradient(91.24deg, #03091df2 -151.39%, #132059 39.72%, #132059 60.99%, #132059 80.28%, #03091df2 231.81%);
+    /* background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%); */
+}
+
+.banner-circle{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(225deg, #D4088C 14.64%, #CC088C 17.47%, #85078A 47.17%, #590689 68.39%, #480689 79%);
+    border-radius: 100px;
+    margin-left: 400px;
+}

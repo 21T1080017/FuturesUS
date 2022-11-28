@@ -1,0 +1,62 @@
+.content-introducing{
+    margin-top: 100px;
+}
+
+/*Header program*/
+/**************************************************************************************************************************************************/
+.header-Program{
+    text-align: center;
+}
+.header-Program h1 span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(40px*0.85375);
+    color: #FFFFFF;
+}
+.header-Program h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: cacl(18px*0.85375);
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+/*Header Plans*/
+/**************************************************************************************************************************************************/
+.conten-pricing{
+    margin-top: 50px;
+}
+/*Main program*/
+/**************************************************************************************************************************************************/
+.main-program{
+    margin-top: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+.benefit-item{
+    background: linear-gradient(225deg, rgba(212, 8, 140, 0.25) 14.64%, rgba(204, 8, 140, 0.25) 17.47%, rgba(133, 7, 138, 0.25) 47.17%, rgba(89, 6, 137, 0.25) 68.39%, rgba(72, 6, 137, 0.25) 79%);
+    border-radius: 30px;
+    text-align: center;
+    width: 250px;
+}
+.benefit-item .benefit-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.benefit-item .benefit-desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.benefit-image{
+    margin: 0 auto;
+    width: 80px;
+}

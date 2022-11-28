@@ -1,0 +1,134 @@
+.container{
+    margin: 0 50px;
+}
+.header-contact{
+    margin: 0 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.header-item{
+    opacity: 0.8;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.gmail, .help, .support{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: white;
+}
+
+.item-support{
+    margin-left: auto;
+}
+
+.item-help{
+    margin-left: 40px;
+}
+
+.border-dashed{
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+}
+
+.Property{
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.property-logo{
+    display: flex;
+    align-items: center;
+}
+.property-logo img{
+    width: 40.01px;
+    height: 41.64px;
+}
+.property-logo h1{
+    margin-left: 10px;
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-size: cacl(22px*0.85375);
+    color: #FFFFFF;
+}
+
+.nav{
+    margin-left: auto;
+}
+.nav, .menu-bar{
+    align-items: center;
+    display: flex;
+}
+.menu-item:not(:first-child) {
+    margin-left: 30px;
+}
+.menu-item .item_link{ 
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: cacl(18px*0.85375);
+    color: #FFFFFF;
+}
+.menu-item .item-link::after{
+    left: 0;
+    width: 0;
+    bottom: 0;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%);
+    transition: all 0.3s ease-out;
+}
+.menu-item a:hover::after{
+    width: 100%;
+}
+.menu-item a:hover{
+    color:#CF088C;
+}
+.item_link:focus{
+    color:#CF088C;
+}
+
+.ion-icon{
+    display: flex;
+    margin-left: 30px;
+}
+.ion-icon a i{
+    color: #FFFFFF;
+}
+.ion-icon a:not(:first-child){
+    margin-left: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 5px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 20px;
+    background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%);
+    color: #FFFFFF;
+    /* background: transparent; */
+    /* border: 1px solid #FFFFFF; */
+}
+.btn:focus{
+    border: 0;
+    background: linear-gradient(91.24deg, #03091df2 -151.39%, #132059 39.72%, #132059 60.99%, #132059 80.28%, #03091df2 231.81%);
+    /* background: linear-gradient(91.24deg, #FFFFFF -151.39%, #CF088C 39.72%, #CF088C 60.99%, #CF088C 80.28%, #FFFFFF 231.81%); */
+}
+.link_btn{
+    margin-left: 20px;
+}
